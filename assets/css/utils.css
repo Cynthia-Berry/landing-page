@@ -1,102 +1,99 @@
 .position-absolute {
-	position: absolute;
+  position: absolute;
 }
 
 .vh-100 {
-	height: 100%;
+  height: 100%;
 }
 
 .vw-100 {
-	width: 100%;
+  width: 100%;
 }
 
 .overflow-hidden {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .text-white {
-	overflow: hidden;
+  overflow: hidden;
 }
-
 
 /*MARGIN*/
 
 .m-6 {
-	margin: 6rem;
+  margin: 6rem;
 }
 
 .m-5 {
-	margin: 5rem;
+  margin: 5rem;
 }
 
 .m-4 {
-	margin: 4rem;
+  margin: 4rem;
 }
 
 .m-3 {
-	margin: 3rem;
+  margin: 3rem;
 }
 
 .m-2 {
-	margin: 2rem;
+  margin: 2rem;
 }
 
 .m-1 {
-	margin: 1rem;
+  margin: 1rem;
 }
 
 .m-0 {
-	margin: 0;
+  margin: 0;
 }
 
 .my-5 {
-	margin: 5rem 0;
+  margin: 5rem 0;
 }
 
 .mx-5 {
-	margin: 0 5rem;
+  margin: 0 5rem;
 }
 
 .mt-2 {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .mt-1 {
-	margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .mb-2 {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 /*PADDING*/
 .p-3 {
-	padding: 3rem;
+  padding: 3rem;
 }
 
 .px-1 {
-	padding: 0 1rem;
+  padding: 0 1rem;
 }
 
 .pe-3 {
-	padding-right: 3rem;
+  padding-right: 3rem;
 }
 
 .ps-1 {
-	padding-left: 1rem;
+  padding-left: 1rem;
 }
-
 
 /*ROTATE*/
 .rotate {
-	transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .rotate-315 {
-	transform: rotate(315deg);
+  transform: rotate(315deg);
 }
 
 .border-end {
-	border-right: 1px solid #FCEC12;
+  border-right: 1px solid #fcec12;
 }
-
