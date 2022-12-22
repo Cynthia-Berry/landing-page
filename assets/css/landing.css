@@ -1,0 +1,456 @@
+@font-face {
+	font-family: 'CeraProBold';
+	src: local('CeraProBold'), url("../../assets/fonts/CeraProBold.otf") format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'CeraProMedium';
+	src: local('CeraProMedium'), url("../../assets/fonts/CeraProMedium.otf") format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #EB0C3C;
+	color: white;
+	overflow: hidden;
+}
+
+.section-1 {
+	margin: 6rem;
+}
+
+.banner-header {
+	font-family: CeraProBold;
+	font-weight: 700;
+	font-size: 90px;
+	position: absolute;
+	top: 12%;
+	width: 500px;
+	line-height: 90px;
+}
+
+p {
+	font-family: CeraProMedium;
+	position: absolute;
+	width: 600px;
+	height: 40px;
+	top: 40%;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 40px;
+}
+
+small {
+	font-family: CeraProMedium;
+}
+
+.perks {
+	position: absolute;
+	width: 447px;
+	height: 23px;
+	bottom: 18%;
+	z-index: 999999;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.social-media {
+	bottom: 10%;
+	z-index: 99999;
+}
+
+.subscribe {
+	z-index: 999999;
+	bottom: 20%;
+	left: 55%;
+	width: 80%;
+}
+
+.subscribe-form {
+	background-color: #fff;
+	max-width: 400px;
+	border-start-start-radius: 50px;
+	border-bottom-left-radius: 50px;
+	display: inline-flex;
+	width: 100%;
+	padding: 0.52rem 0.95rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1;
+	color: #404040;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	appearance: none;
+	outline: none;
+	transition: white 0.15s ease-in-out;
+}
+
+.subscribe-button {
+	background-color: #FCEC12;
+	max-width: 120px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	margin-left: -2px;
+	width: 100%;
+	padding: 0.575rem 0.85rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1;
+	border: 1px solid #FCEC12;
+	appearance: none;
+	outline: none;
+	transition: white 0.15s ease-in-out;
+}
+
+.toiletries {
+	right: 410px;
+	top: -140px;
+	width: 320px;
+	height: 320px
+}
+
+.carbonated-drink {
+	right: 170px;
+	top: -150px;
+	width: 350px;
+	height: 480px
+}
+
+.snack {
+	right: 10px;
+	top: 70px;
+	width: 450px;
+	height: 450px
+}
+
+.baby-food {
+	right: -150px;
+	top: -150px;
+	width: 455px;
+	height: 455px
+}
+
+.paste {
+	width: 400px;
+	height: 400px;
+	right: -220px;
+	top: 170px;
+}
+
+.wine {
+	right: -220px;
+	bottom: -80px;
+	width: 480px;
+	height: 480px
+}
+
+.eggs {
+	width: 335px;
+	height: 335px;
+	bottom: 10px;
+	right: 130px;
+}
+
+.pasta {
+	width: 500px;
+	height: 500px;
+	right: -50px;
+	bottom: -280px;
+}
+
+.condom {
+	width: 300px;
+	height: 300px;
+	right: 300px;
+	bottom: -150px;
+}
+
+@media screen and (max-width: 1220px) {
+	.banner-header {
+		top: 15%;
+		line-height: 90px;
+	}
+	
+	.subscribe {
+		left: 58%;
+		bottom: 13%;
+		margin-left: 0;
+	}
+	
+	.subscribe-form {
+		max-width: 300px;
+	}
+	
+	.subscribe-button {
+		max-width: 100px;
+	}
+	
+	p {
+		width: 450px;
+		top: 44%;
+		font-size: 23px;
+	}
+	
+	.toiletries {
+		right: 230px;
+		top: -18%;
+		width: 300px;
+		height: 300px
+	}
+	
+	.carbonated-drink {
+		right: 60px;
+		top: -130px;
+		width: 270px;
+		height: 410px
+	}
+	
+	.snack {
+		right: -50px;
+		top: 80px;
+		width: 410px;
+		height: 410px
+	}
+	
+	.baby-food {
+		right: -140px;
+		top: -100px;
+		width: 370px;
+		height: 370px
+	}
+	
+	.paste {
+		width: 320px;
+		height: 320px;
+		right: -180px;
+		top: 240px;
+	}
+	
+	.wine {
+		bottom: -100px;
+	}
+	
+	.eggs {
+		bottom: 15px;
+	}
+	
+	.pasta {
+		right: -40px;
+	}
+	
+	.condom {
+		right: 250px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.section-1 {
+		margin: 2.5rem;
+	}
+	
+	.display-md-none {
+		display: none !important;
+	}
+	
+	.banner-header {
+		position: absolute;
+		top: 15%;
+		height: 200px;
+	}
+	
+	p {
+		mar: 42%;
+	}
+	
+	.perks {
+		bottom: 38%;
+	}
+	
+	.subscribe {
+		bottom: 31%;
+		left: 40px;
+	}
+	
+	.subscribe-form {
+		max-width: 300px;
+	}
+	
+	.social-media {
+		bottom: 26%
+	}
+	
+	.rotate {
+		transform: rotate(25deg);
+	}
+	
+	.paste {
+		min-width: 400px;
+		height: 400px;
+		right: unset;
+		top: unset;
+		left: -20%;
+		bottom: -20%;
+	}
+	
+	.snack {
+		right: 30%;
+		top: unset;
+		bottom: -25%;
+		min-width: 450px;
+		height: 450px
+	}
+	
+	.pasta {
+		min-width: 700px;
+		height: 600px;
+		right: -110px;
+		bottom: -40%;
+	}
+	
+	.carbonated-drink {
+		right: -18%;
+		top: unset;
+		bottom: -23%;
+		min-width: 350px;
+		height: 480px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.section-1 {
+		margin: 1rem;
+	}
+	
+	.banner-header {
+		top: 90px;
+		font-size: 53px;
+		width: 246px;
+		height: 211px;
+	}
+	
+	p {
+		top: 395px;
+		font-size: 18px;
+		height: 46px;
+	}
+	
+	.perks {
+		font-size: 12px;
+		width: 313px;
+		height: 42px;
+		top: 490px;
+	}
+	
+	.subscribe {
+		top: 540px;
+	}
+	
+	.subscribe-form {
+		max-width: 200px;
+	}
+	
+	.subscribe-button {
+		padding: .65rem 0;
+		max-width: 90px;
+	}
+	
+	.social-media {
+		font-size: 14px;
+		height: 18px;
+		top: 600px;
+	}
+	
+	.paste {
+		min-width: 300px;
+		height: 200px;
+		right: unset;
+		top: unset;
+		left: -150px;
+		bottom: -50px;
+		transform: rotate(60deg);
+	}
+	
+	.snack {
+		right: 50px;
+		top: unset;
+		bottom: -200px;
+		min-width: 150px;
+		height: 400px
+	}
+	
+	.display-sm-none {
+		display: none !important;
+	}
+	
+	
+	.carbonated-drink {
+		right: -200px;
+		min-width: 330px;
+		height: 450px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.banner-header {
+		top: 100px;
+		font-size: 45px;
+		width: 226px;
+		height: 210px;
+	}
+	
+	p {
+		top: 310px;
+		font-size: 12px;
+		width: 270px;
+	}
+	
+	.perks {
+		font-size: 12px;
+		width: 260px;
+		height: 36px;
+		top: 395px;
+	}
+	
+	.subscribe {
+		top: 440px;
+	}
+	
+	.social-media {
+		font-size: 12px;
+		height: 18px;
+		top: 500px;
+	}
+	
+	.paste {
+		width: 50px;
+		height: 220px;
+		left: -140px;
+		bottom: -90px;
+	}
+	
+	.snack {
+		right: 25px;
+		bottom: -80px;
+		width: 200px;
+		height: 250px
+	}
+	
+	.carbonated-drink {
+		bottom: -100px;
+		right: -120px;
+		min-width: 130px;
+		height: 250px;
+	}
+}
