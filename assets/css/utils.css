@@ -1,5 +1,13 @@
+.container{
+  width: 90%;
+}
+
 .position-absolute {
   position: absolute;
+}
+
+.position-relative {
+  position: relative;
 }
 
 .vh-100 {
@@ -55,6 +63,9 @@
 .mx-5 {
   margin: 0 5rem;
 }
+.mx-1 {
+  margin: 0 1rem;
+}
 
 .mt-2 {
   margin-top: 2rem;
@@ -68,6 +79,10 @@
   margin-bottom: 2rem;
 }
 
+.ms-1 {
+  margin-left: 1rem;
+}
+
 /*PADDING*/
 .p-3 {
   padding: 3rem;
@@ -79,10 +94,6 @@
 
 .pe-3 {
   padding-right: 3rem;
-}
-
-.ps-1 {
-  padding-left: 1rem;
 }
 
 /*ROTATE*/
